@@ -30,7 +30,7 @@ export default function SignIn({ navigation }) {
   return (
     <Background>
       <Container>
-        <Image source={logo} />
+        {/* <Image source={logo} /> */}
         <Form>
           <FormInput
             icon="mail-outline"
@@ -57,9 +57,9 @@ export default function SignIn({ navigation }) {
             Acessar
           </SubmitButton>
         </Form>
-        <SignLink onPress={() => navigation.navigate('SignUp')}>
+        {/* <SignLink onPress={() => navigation.navigate('SignUp')}>
           <SignLinkText>Criar conta gratuita</SignLinkText>
-        </SignLink>
+        </SignLink> */}
       </Container>
     </Background>
   );

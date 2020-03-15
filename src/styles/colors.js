@@ -1,8 +1,8 @@
 export default {
   g1: '#3b5998',
   g2: '#4e71ba',
-  //icon: 'rgba(255,255,255,0.6)',
-  //placeholder: 'rgba(255,255,255,0.8)',
+  icon: 'rgba(255,255,255,0.6)',
+  placeholder: 'rgba(255,255,255,0.8)',
   separator: 'rgba(255,255,255,0.2)',
   backgroundView: 'rgba(0, 0, 0, 0.1)',
   inputText: '#fff',
